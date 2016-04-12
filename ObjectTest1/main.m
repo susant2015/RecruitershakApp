@@ -7,11 +7,31 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Fraction.h"
+#import "Complex.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+      /*  Fraction *frac1=[[Fraction alloc] init];
+        Fraction *frac2=[[Fraction alloc] init];
+        
+        
+        [frac1 setNumirator:2];
+        [frac1 setDenomirator:3];
+        
+        [frac2 setNumirator:3];
+        [frac2 setDenomirator:7];
+        
+        NSLog(@"The first fraction is:");
+        [frac1 print];
+      
+        
+        NSLog(@"The second fraction is:");
+        [frac2 print];    */
+        
+        Complex *c1=[[Complex alloc] init];
+        
+        
     }
     return 0;
 }
